@@ -3,10 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Base Index Page</title>
+  <title>My Tweets</title>
 </head>
 <body>
-  <h1>Welcome to the Base Index Page</h1>
-  <p>This is a simple, valid HTML5 file.</p>
+  <h1>Embedded Tweet</h1>
+
+  <!-- Embed a tweet (example from Twitter Dev account) -->
+  <blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">
+      We’ve launched a new update for developers using the Twitter API! 🎉<br>
+      Read more about it here:
+      <a href="https://t.co/example">https://t.co/example</a>
+    </p>
+    &mdash; Twitter Dev (@TwitterDev)
+    <a href="https://twitter.com/TwitterDev/status/1234567890123456789">March 10, 2024</a>
+  </blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <p><a href="index.html">← Back to Homepage</a></p>
+  
 </body>
 </html>
